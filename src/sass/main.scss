@@ -1,0 +1,24 @@
+//Import abstracts
+@import "abstracts/variables";
+@import "abstracts/mixins";
+
+//Import base
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+@import "base/animated";
+
+//Omport components
+@import "components/table";
+@import "components/forms";
+@import "components/buttons";
+//Import pages
+@import "pages/home";
+
+//Import layout
+@import "layout/header";
+@import "layout/grid";
+@import "layout/footer";
+
+
+

@@ -1,0 +1,9 @@
+.animated-fade{
+    animation: move 1s infinite;
+}
+
+@keyframes move {
+    from {opacity: .1;}
+    to {opacity: .9;}
+}
+

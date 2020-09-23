@@ -1,0 +1,17 @@
+.footer{
+    height: 10vh;
+    width: 100%;
+    text-align: center;
+    background-color: $color-footer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    &__content{
+        width: 80%;
+        padding-left: 20%;
+    }
+
+}
+

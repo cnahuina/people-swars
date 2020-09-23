@@ -1,0 +1,78 @@
+.ng2-smart-action-delete-delete{
+    background-color: $color-danger-light;
+    padding: 4%;
+    color: $color-white!important;
+    border-radius: 5px;
+    
+    &::before{
+        content: url('../../assets/icons/trash-alt.svg');
+        filter: invert(100%) sepia(10%) saturate(7442%) hue-rotate(238deg) brightness(120%) contrast(100%);
+        margin-right: 2px;
+    }
+    &:hover{
+        @extend .animated-fade;
+    }
+}
+
+.ng2-smart-action-add-add{
+    background-color: $color-blue;
+    padding: 4%;
+    color: $color-white!important;
+    border-radius: 5px;
+    vertical-align: middle;
+    
+    &::before{
+        content: url('../../assets/icons/plus.svg');
+        filter: invert(100%) sepia(10%) saturate(7442%) hue-rotate(238deg) brightness(120%) contrast(100%);
+        margin-right: 2px;
+    }
+    
+}
+.ng2-smart-action-edit-edit{
+    background-color: $color-sucess-light;
+    padding: 4%;
+    color: $color-white!important;
+    border-radius: 5px;
+    
+    &::before{
+        content: url('../../assets/icons/edit.svg');
+        filter: invert(100%) sepia(10%) saturate(7442%) hue-rotate(238deg) brightness(120%) contrast(100%);
+        margin-right: 2px;
+    }
+    &:hover{
+        @extend .animated-fade;
+    }
+}
+.ng2-smart-sort-link{
+    color: $color-text!important;
+    padding: 2%;
+}
+
+.ng2-smart-action-add-create{
+    background-color: $color-sucess;
+    padding: 4%;
+    color: $color-white!important;
+    border-radius: 5px;
+    margin-right: 2px;
+    &::before{
+        content: url('../../assets/icons/save.svg');
+        filter: invert(100%) sepia(10%) saturate(7442%) hue-rotate(238deg) brightness(120%) contrast(100%);
+        margin-right: 2px;
+
+    }
+}
+.ng2-smart-action-add-cancel{
+    background-color: $color-gray;
+    padding: 4%;
+    color: $color-white!important;
+    border-radius: 5px;
+    margin-right: 2px;
+    
+    &::before{
+        content: url('../../assets/icons/cancel.svg');
+        filter: invert(100%) sepia(10%) saturate(7442%) hue-rotate(238deg) brightness(120%) contrast(100%);
+        margin-right: 2px;
+
+    }
+
+}

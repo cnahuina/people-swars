@@ -1,0 +1,15 @@
+.home{
+    &__content{
+        height: 85vh;
+        width: 75%;
+        @extend .u-padding-top-medium;
+        @extend .u-padding-bottom-medium;
+        @extend .u-margin-bottom-medium;
+        
+        @media screen and ($width-name : $target-width) {
+            width: 100%;
+            height: auto;
+        }
+    }
+   
+}
